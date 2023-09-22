@@ -1,3 +1,3 @@
 # F28WPWEBProgramming
  F28WP
-This is the first commit to github - Hamish Marshall Dawson
+This version of the website has added a main home.html page and a Style_sheet for external css 
