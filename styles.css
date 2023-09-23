@@ -1,0 +1,19 @@
+#background
+{
+    max-width: 95%;
+    background-color:#A7A2A9;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+   
+}
+
+#mainContent
+{
+    
+    background-color: #F4F7F5;
+    border-style: outset;
+    border-width: 0px 0px 15px 15px #08090A;;
+    
+
+}
