@@ -9,3 +9,5 @@ return (d.getDate() +"/" + d.getMonth() + "/" + d.getFullYear());
 
 
 datefunc.innerText = newdate(); 
+
+
