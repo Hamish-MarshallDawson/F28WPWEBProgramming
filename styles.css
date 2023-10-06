@@ -1,11 +1,11 @@
 #background
 {
     max-width: 95%;
-    background-color:#FDFFFC;
+    background-color:#E6E6E6;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
-   
+  
 }
 
 #mainContent
@@ -15,20 +15,74 @@
     border-style: outset;
     border-width: 0px 0px 15px 15px #08090A;; */
     min-width: 20%;
-
     max-width: 90%;
+
     
+
+}
+
+header{
+
+  background-color: #FDFFFC;
+  color:black;
+  border-radius: 5px;
+  border: 5px solid #FDFFFC;
+
+
+
+}
+
+
+cyan{
+
+
+}
+
+
+red{
+
+
+
+}
+
+orange{
+
+
+  
+}
+
+.links{
+
+
+border: 5px solid ;
+text-decoration: none;
 
 }
 
 #leftSide{
 
-    column-count: 2;
-    column-gap: 25%;
-    column-rule-style: solid;
-    column-rule-width: 1px;
-   text-align: center;
-   padding-left: -5px;
+  float: left;
+    text-align: center;
+    padding-left: -5px;
+    border: 5px solid #2EC4B6;
+    background-color: #2EC4B6;
+    color:#E6E6E6;
+    border-radius: 5px;
+
+    width: 25%;
+
+}
+#rightSide{
+
+  float: right; 
+  display: inline;
+  text-align: center;
+  padding-left: -5px;
+  border: 5px solid #E71D36;
+  background-color: #E71D36;
+  color:#E6E6E6;
+  border-radius: 5px;
+  width: 25%;
 
 }
 
@@ -36,28 +90,30 @@
 
 
  #cookiePopup {
-    background: #FDFFFC;
+    background: #FF9F1C;
     width: 25%;
     position: fixed;
     left: 10px;
     bottom: 20px;
-    box-shadow: 0px 0px 15px #011627;
+    color: black;
     padding: 5px 10px;
     text-align: center;
+    border: 5px solid #FF9F1C;
+    border-radius: 5px;
     color: #011627;
   }
     #cookiePopup p{
     
-    font-size: 15px;
+    font-size: 12px;
     
   }
   #cookiePopup button{
     width: 100%;
     border: #FF9F1C;
-    background: #2EC4B6;
+    background: #FDFFFC;
     padding: 5px;
     border-radius: 10px;
-    color: #FDFFFC;
+    color: black;
   }
 
 
