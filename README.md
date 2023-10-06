@@ -10,3 +10,7 @@ Css is setup in a way that the site has a main background colour and all other e
 
 
 26/08/2023 - Added some basic javascript that returns the current date 
+
+
+
+06/10/2023 - Cookie button and new colour pallate has been implemented. Aiming to add more javascript
