@@ -33,30 +33,40 @@ header{
 }
 
 
-cyan{
+.cyan{
+  
+    background-color: #2EC4B6;
+    color:#E6E6E6;
+    border: 5px solid  #2EC4B6;
+text-decoration: none;
+border-radius: 5px;
 
 
 }
 
 
-red{
+.red{
+
+  background-color: #E71D36;
+  color:#E6E6E6;
+  border: 5px solid #E71D36;
+text-decoration: none;
+border-radius: 5px;
 
 
 
 }
 
-orange{
+.orange{
+
+  background: #FF9F1C;
+  color: #011627;
+  border: 5px solid #FF9F1C;
+text-decoration: none;
+border-radius: 5px;
 
 
   
-}
-
-.links{
-
-
-border: 5px solid ;
-text-decoration: none;
-
 }
 
 #leftSide{
@@ -64,10 +74,7 @@ text-decoration: none;
   float: left;
     text-align: center;
     padding-left: -5px;
-    border: 5px solid #2EC4B6;
-    background-color: #2EC4B6;
-    color:#E6E6E6;
-    border-radius: 5px;
+    
 
     width: 25%;
 
@@ -78,10 +85,7 @@ text-decoration: none;
   display: inline;
   text-align: center;
   padding-left: -5px;
-  border: 5px solid #E71D36;
-  background-color: #E71D36;
-  color:#E6E6E6;
-  border-radius: 5px;
+ 
   width: 25%;
 
 }
@@ -90,17 +94,16 @@ text-decoration: none;
 
 
  #cookiePopup {
-    background: #FF9F1C;
+  
     width: 25%;
     position: fixed;
     left: 10px;
     bottom: 20px;
-    color: black;
+   
     padding: 5px 10px;
     text-align: center;
-    border: 5px solid #FF9F1C;
-    border-radius: 5px;
-    color: #011627;
+    
+    
   }
     #cookiePopup p{
     

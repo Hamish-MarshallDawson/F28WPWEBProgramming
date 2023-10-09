@@ -16,3 +16,6 @@ Css is setup in a way that the site has a main background colour and all other e
 06/10/2023 - Cookie button and new colour pallate has been implemented. Aiming to add more javascript
 
 11:11am added a nav bar
+
+
+09/10/23 - Improved css to be more efficent and take advantages of classes and id's
