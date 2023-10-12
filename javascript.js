@@ -1,13 +1,42 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const datefunc = document.getElementById("date");
 
-const datefunc = document.getElementById("date");
+  function newdate() {
+    var d = new Date();
+    return d.getDate() + "/" + d.getMonth() + "/" + d.getFullYear();
+  }
 
-function newdate(){
-var d = new Date();
-return (d.getDate() +"/" + d.getMonth() + "/" + d.getFullYear());
-}
+  datefunc.innerText = newdate();
 
+  var cookie = document.getElementById("cookie");
 
+  //when the user clicks outside the cookie window it closes it
+  window.onclick = function (event) {
+    if (event.target == cookiePopup) {
+      cookie.style.display = "none";
+    }
+  };
 
-datefunc.innerText = newdate(); 
+  window.addEventListener("load", function () {
+    setTimeout(function open(event) {
+      document.querySelector("cookiepopup").style.display = block;
+    }, 1000);
+  });
+});
+// document.body.style.height = '200pt';
 
+// var script = document.createElement('script');
+// script.type = 'text/javascript';
+// script.src = 'https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.2.2/cookiebanner.min.js';
+// script.id = 'cookiebanner';
+// script.setAttribute[height=20]; // non-standard attribute (may need to use 'setAttribute(..)'
+// script['data-position'] = 'top';
+// script['data-message']  = 'We use cookies!';
+// document.head.appendChild(script);
 
+// script.onload = function () {
+//   console.log("loaded script");
+
+//   // console.log( initCookieConsent );
+// };
+// console.log("ready");

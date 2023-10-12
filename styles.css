@@ -1,123 +1,100 @@
-#background
-{
-    max-width: 95%;
-    background-color:#E6E6E6;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-  
-}
+/* #background {
+  /* max-width: 95%;
+  background-color: #e6e6e6;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%; */
 
-#mainContent
-{
-    
-    /* background-color: #FDFFFC;
+#mainContent {
+  /* background-color: #FDFFFC;
     border-style: outset;
     border-width: 0px 0px 15px 15px #08090A;; */
-    min-width: 20%;
-    max-width: 90%;
-
-    
-
+  /* min-width: 20%;
+  max-width: 90%; */
 }
 
-header{
-
-  background-color: #FDFFFC;
-  color:black;
+header {
+  background-color: #fdfffc;
+  color: black;
   border-radius: 5px;
-  border: 5px solid #FDFFFC;
-
-
-
+  border: 5px solid #fdfffc;
 }
 
-
-.cyan{
-  
-    background-color: #2EC4B6;
-    color:#E6E6E6;
-    border: 5px solid  #2EC4B6;
-text-decoration: none;
-border-radius: 5px;
-
-
+.cyan {
+  background-color: #2ec4b6;
+  color: #e6e6e6;
+  border: 5px solid #2ec4b6;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-
-.red{
-
-  background-color: #E71D36;
-  color:#E6E6E6;
-  border: 5px solid #E71D36;
-text-decoration: none;
-border-radius: 5px;
-
-
-
+.red {
+  background-color: #e71d36;
+  color: #e6e6e6;
+  border: 5px solid #e71d36;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-.orange{
-
-  background: #FF9F1C;
+.orange {
+  background: #ff9f1c;
   color: #011627;
-  border: 5px solid #FF9F1C;
-text-decoration: none;
-border-radius: 5px;
-
-
-  
+  border: 5px solid #ff9f1c;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-#leftSide{
-
+#leftSide {
   float: left;
-    text-align: center;
-    padding-left: -5px;
-    
+  text-align: center;
+  padding-left: -5px;
 
-    width: 25%;
-
+  width: 25%;
 }
-#rightSide{
-
-  float: right; 
+#rightSide {
+  float: right;
   display: inline;
   text-align: center;
   padding-left: -5px;
- 
-  width: 25%;
 
+  min-width: 100px;
+  max-width: 400px;
 }
 
+#cookiePopup {
+  z-index: 1;
+  min-width: 100px;
+  max-width: 400px;
+  left: 10px;
+  bottom: 20px;
+  padding: 5px 10px;
+  text-align: center;
+}
+#cookiePopup p {
+  font-size: 12px;
+}
+#cookiePopup button {
+  width: 100%;
+  border: #ff9f1c;
+  background: #fdfffc;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+}
 
+#acceptCookie:hover {
+  color: #2ec4b6;
+  background: #011627;
+  cursor: pointer;
+}
 
-
- #cookiePopup {
-  
-    width: 25%;
-    position: fixed;
-    left: 10px;
-    bottom: 20px;
-   
-    padding: 5px 10px;
-    text-align: center;
-    
-    
-  }
-    #cookiePopup p{
-    
-    font-size: 12px;
-    
-  }
-  #cookiePopup button{
-    width: 100%;
-    border: #FF9F1C;
-    background: #FDFFFC;
-    padding: 5px;
-    border-radius: 10px;
-    color: black;
-  }
-
-
-
+.absoluteCenterOnPage {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
