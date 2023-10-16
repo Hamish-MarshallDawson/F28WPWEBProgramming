@@ -8,12 +8,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   datefunc.innerText = newdate();
 
+  window.addEventListener("load", function setBackground() {
+    document.body.style.backgroundImage = "imagesRecent gym pics (1).jpg";
+  });
+
   var cookie = document.getElementById("cookie");
 
   //when the user clicks outside the cookie window it closes it
   window.onclick = function (event) {
     if (event.target == cookiePopup) {
-      cookie.style.display = "none";
+      cookie.style.display = none;
     }
   };
 

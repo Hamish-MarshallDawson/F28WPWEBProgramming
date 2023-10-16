@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html id="background">
-  <head>
+<html>
+  <head onload="setBackground()">
     <!-- Local style sheet relative to workspace folder -->
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
   </head>
@@ -40,7 +40,7 @@
 
       <script src="javascript.js"></script>
     </div>
-    <div class="absoluteCenterOnPage">
+    <div onLoad="function()" class="absoluteCenterOnPage">
       <div id="cookiePopup" onload="load" class="orange">
         <h3>Cookies are yummy</h3>
         <p>
