@@ -44,21 +44,20 @@ header {
   border-radius: 5px;
 }
 
-#leftSide {
-  float: left;
-  text-align: center;
-  padding-left: -5px;
-
-  width: 25%;
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+  max-width: 1500px;
 }
-#rightSide {
-  float: right;
-  display: inline;
-  text-align: center;
-  padding-left: -5px;
-
-  min-width: 100px;
-  max-width: 400px;
+.mainpageIMG {
+  max-height: 400px;
+  min-width: 200px;
+  /* object-fit: cover;
+  vertical-align: bottom; */
 }
 
 #cookiePopup {
