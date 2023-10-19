@@ -1,32 +1,32 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const datefunc = document.getElementById("date");
+// document.addEventListener("DOMContentLoaded", function () {
+//   const datefunc = document.getElementById("date");
 
-  function newdate() {
-    var d = new Date();
-    return d.getDate() + "/" + d.getMonth() + "/" + d.getFullYear();
-  }
+//   function newdate() {
+//     var d = new Date();
+//     return d.getDate() + "/" + d.getMonth() + "/" + d.getFullYear();
+//   }
 
-  datefunc.innerText = newdate();
+//   datefunc.innerText = newdate();
 
-  window.addEventListener("load", function setBackground() {
-    document.body.style.backgroundImage = "imagesRecent gym pics (1).jpg";
-  });
+//   window.addEventListener("load", function setBackground() {
+//     document.body.style.backgroundImage = "imagesRecent gym pics (1).jpg";
+//   });
 
-  var cookie = document.getElementById("cookie");
+//   var cookie = document.getElementById("cookie");
 
-  //when the user clicks outside the cookie window it closes it
-  window.onclick = function (event) {
-    if (event.target == cookiePopup) {
-      cookie.style.display = none;
-    }
-  };
+//   //when the user clicks outside the cookie window it closes it
+//   window.onclick = function (event) {
+//     if (event.target == cookiePopup) {
+//       cookie.style.display = none;
+//     }
+//   };
 
-  window.addEventListener("load", function () {
-    setTimeout(function open(event) {
-      document.querySelector("cookiepopup").style.display = block;
-    }, 1000);
-  });
-});
+//   window.addEventListener("load", function () {
+//     setTimeout(function open(event) {
+//       document.querySelector("cookiepopup").style.display = block;
+//     }, 1000);
+//   });
+// });
 // document.body.style.height = '200pt';
 
 // var script = document.createElement('script');
