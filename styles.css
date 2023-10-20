@@ -13,11 +13,23 @@
   max-width: 90%; */
 }
 
+body {
+  background-color: #011627;
+}
+
 header {
-  background-color: #fdfffc;
-  color: black;
+  text-align: center;
+  background-color: #011627;
+  color: #e6e6e6;
   border-radius: 5px;
-  border: 5px solid #fdfffc;
+  border: 5px solid #011627;
+}
+nav {
+  text-align: center;
+}
+
+body {
+  text-align: center;
 }
 
 .cyan {
@@ -45,17 +57,20 @@ header {
 }
 
 .container {
+  text-align: center;
   display: flex;
   justify-content: space-around;
   gap: 10px;
   gap: 10px 20px; /* row-gap column gap */
   row-gap: 10px;
   column-gap: 20px;
-  max-width: 1500px;
 }
 .mainpageIMG {
   max-height: 400px;
   min-width: 200px;
+  border: 5px solid #fdfffc;
+  text-decoration: none;
+  border-radius: 5px;
   /* object-fit: cover;
   vertical-align: bottom; */
 }
