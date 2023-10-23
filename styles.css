@@ -29,6 +29,7 @@ nav {
 }
 
 ul {
+  position: relative;
   z-index: -1;
   display: flex;
   flex-wrap: wrap;
@@ -99,6 +100,20 @@ body {
   /* object-fit: cover;
   vertical-align: bottom; */
 }
+#photoinfotextbox {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#phototitle {
+  opacity: 100%;
+}
 
 #cookiePopup {
   min-width: 100px;
@@ -137,7 +152,7 @@ body {
   align-items: center;
 }
 
-/* for different viewing types */
+/* for different viewing types on different devices  */
 @media (max-aspect-ratio: 1/1) {
   li {
     height: 30vh;
