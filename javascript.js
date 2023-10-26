@@ -1,4 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
+let prom = await fetch("https://moxie.foxnews.com/google-publisher/latest.xml");
+let text = await prom.text();
+
+console.log(text.substring(0, 100));
+
+document.addEventListener("DOMContentLoaded", async function () {
   const datefunc = document.getElementById("date");
 
   function newdate() {
@@ -11,22 +16,30 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.style.backgroundImage = "imagesRecent gym pics (1).jpg";
   });
 
-  var cookie = document.getElementById("cookie");
+  //   var cookie = document.getElementById("cookie");
 
-  //when the user clicks outside the cookie window it closes it
-  window.onclick = function (event) {
-    if (event.target == cookiePopup) {
-      cookie.style.display = none;
-    }
-  };
+  //   //when the user clicks outside the cookie window it closes it
+  //   window.onclick = function (event) {
+  //     if (event.target == cookiePopup) {
+  //       cookie.style.display = none;
+  //     }
+  //   };
 
-  window.addEventListener("load", function () {
-    setTimeout(function open(event) {
-      document.querySelector("cookiepopup").style.display = block;
-    }, 1000);
-  });
+  //   window.addEventListener("load", function () {
+  //     setTimeout(function open(event) {
+  //       document.querySelector("cookiepopup").style.display = block;
+  //     }, 1000);
+  //   });
+  // });
+  // document.body.style.height = "200pt";
+
+  let prom = await fetch(
+    "https://moxie.foxnews.com/google-publisher/latest.xml"
+  );
+  let text = await prom.text();
+
+  console.log(text.substring(0, 100));
 });
-document.body.style.height = "200pt";
 
 // var script = document.createElement('script');
 // script.type = 'text/javascript';

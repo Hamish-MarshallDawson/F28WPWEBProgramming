@@ -100,7 +100,7 @@ body {
   /* object-fit: cover;
   vertical-align: bottom; */
 }
-#photoinfotextbox {
+#photoinfopositioning {
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -111,8 +111,14 @@ body {
   align-items: center;
 }
 
+/* #photoinfobox {
+  border: 5px solid #fdfffc;
+  border-radius: 5px;
+} */
+
 #phototitle {
   opacity: 100%;
+  background-color: #fdfffc;
 }
 
 #cookiePopup {
