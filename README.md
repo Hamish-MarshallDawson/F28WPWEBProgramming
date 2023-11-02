@@ -18,3 +18,5 @@ Css is setup in a way that the site has a main background colour and all other e
 20/10/23 - developed the photography page that uses a flexbox and uses mutiple photos of my work as a background. Aiming to add a floating textbox explaining the site
 
 26/10/23 - Introduced html page for rss newsfeed. aiming to get it working with a bcc news feed
+
+02/11/20223 - Implemented Ny times news feed with xml, while currently broken currently trying to add images to the news feed then add a button that allows the user to switch the feed
