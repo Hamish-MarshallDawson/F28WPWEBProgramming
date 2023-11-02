@@ -23,7 +23,7 @@ const getRssFeed = async () => {
     let description = el.querySelector("description").textContent;
     let guid = el.querySelector("guid").textContent;
 
-    const imgUrl = mediaContent ? mediaContent.Attribute(URL) : null;
+    const imgUrl = img ? img.Attribute(URL) : null;
 
     console.log("title:", title);
     console.log("image:", img);
@@ -32,13 +32,20 @@ const getRssFeed = async () => {
 
     let div = document.createElement("div");
     document.body.appendChild(div);
-    div.style.backgroundImage(URL$(img));
     div.innerHTML = `
         <h2>${title}</h2>
         <p>${description}</p>
     `;
     if (guid) div.innerHTML += `<a href='${guid}'>LINK</a>`;
   });
+
+
+  if(img ){
+
+    div.style.backgroundImage = url(${img});
+
+  }
+
 };
 
 getRssFeed();
